@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Main file
+main file
 """
 
 filter_datum = __import__('filtered_logger').filter_datum
