@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" protecting PII """
+""" Protecting PII """
 
 from typing import List
 import logging
@@ -91,6 +91,7 @@ def main() -> None:
 
     cur.close()
     db.close()
+
 
 if __name__ == "__main__":
     main()
