@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" Protecting PII """
+""" protecting PII """
 
 from typing import List
 import logging
