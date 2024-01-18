@@ -31,6 +31,7 @@ else:
     from api.v1.auth.auth import Auth
     auth = Auth()
 
+
 @app.before_request
 def request_filter() -> None:
     """ Checks if request needs authorization
@@ -38,7 +39,7 @@ def request_filter() -> None:
     excluded_paths = [
         '/api/v1/status/',
         '/api/v1/unauthorized/',
-        '/api/v1/forbidden/'
+        '/api/v1/forbidden/',
         '/api/v1/auth_session/login/'
         ]
 
